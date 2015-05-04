@@ -286,7 +286,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 1px solid #c3c3c3;
+  border: 1px solid #207a86;
   margin: 1px 1px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -298,7 +298,7 @@
   border: 1px solid #e3bc08;
 }
 #cal-day-box .day-highlight.dh-event-info {
-  border: 1px solid #1e90ff;
+  border: 1px solid #5bc0de;
 }
 #cal-day-box .day-highlight.dh-event-inverse {
   border: 1px solid #1b1b1b;
@@ -312,15 +312,12 @@
 }
 .event {
   display: block;
-  background-color: #c3c3c3;
+  background-color: #207a86;
   width: 12px;
   height: 12px;
   margin-right: 2px;
   margin-bottom: 2px;
-  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
-  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
-  border: 1px solid #ffffff;
 }
 .event-block {
   display: block;
@@ -335,7 +332,7 @@
   background-color: #ad2121;
 }
 .event-info {
-  background-color: #1e90ff;
+  background-color: #5bc0de;
 }
 .event-warning {
   background-color: #e3bc08;
@@ -363,7 +360,7 @@
 }
 .day-highlight.dh-event-info:hover,
 .day-highlight.dh-event-info {
-  background-color: #d1e8ff;
+  background-color: #f0f9fc;
 }
 .day-highlight.dh-event-inverse:hover,
 .day-highlight.dh-event-inverse {
@@ -484,15 +481,13 @@ span[data-cal-date]:hover {
 #cal-slide-content {
   padding: 20px;
   color: #ffffff;
-  background-image: url("../img/dark_wood.png");
-  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  background-color: #333;
 }
 #cal-slide-tick {
   background-image: url("../img/tick.png?2");
 }
 #cal-slide-content:hover {
-  background-color: transparent;
+  background-color: #444;
 }
 #cal-slide-content a.event-item {
   color: #ffffff;
